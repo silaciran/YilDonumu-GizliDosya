@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yıl Dönümü | Gizli Dosya</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<main class="ana-ekran">
+
+    <!-- ==================================================
+         SİSTEM MESAJI
+    ================================================== -->
+
+    <div class="sistem-mesaji">
+        SİSTEM BAŞLATILIYOR...
+    </div>
+
+
+    <!-- ==================================================
+         ANA EKRAN
+    ================================================== -->
+
+    <section class="baslangic-karti" id="anaEkran">
+
+        <div class="dosya-numarasi">
+            DOSYA #02
+        </div>
+
+        <h1>GİZLİ DOSYA</h1>
+
+        <p class="alt-baslik">
+            Yıl Dönümü Protokolü
+        </p>
+
+        <div class="ayrac"></div>
+
+        <p class="aciklama">
+            Sistem içerisinde erişimi kısıtlanmış
+            bir dosya tespit edildi.
+        </p>
+
+        <p class="uyari">
+            ⚠ YETKİLENDİRME GEREKLİ
+        </p>
+
+        <button id="baslaButonu">
+            GÖREVE BAŞLA
+        </button>
+
+    </section>
+
+
+    <!-- ==================================================
+         GÖREV BRİFİNGİ
+    ================================================== -->
+
+    <section class="brifing-karti gizli" id="brifingEkrani">
+
+        <div class="dosya-numarasi">
+            DOSYA #02 / ERİŞİM SAĞLANDI
+        </div>
+
+        <h2>GÖREV BRİFİNGİ</h2>
+
+        <div class="ayrac"></div>
+
+        <p>
+            Sistem içerisinde erişimi kısıtlanmış
+            bir dosya tespit edildi.
+        </p>
+
+        <p>
+            Dosyanın içerisinde sana ait bazı kayıtlar
+            ve gizli bilgiler bulunuyor.
+        </p>
+
+        <p>
+            Ancak dosyanın tamamına erişebilmek için
+            sistem tarafından belirlenen görevleri
+            tamamlaman gerekiyor.
+        </p>
+
+        <p class="brifing-uyari">
+            ⚠ HER GÖREV, BİR SONRAKİ ADIMA GİDEN
+            BİR İPUCU BARINDIRIR.
+        </p>
+
+        <button id="brifingButonu">
+            GÖREVİ KABUL ET
+        </button>
+
+    </section>
+
+
+    <!-- ==================================================
+         HAFIZA KAYITLARI
+    ================================================== -->
+
+    <section class="hafiza-karti gizli" id="hafizaEkrani">
+
+        <div class="dosya-numarasi">
+            GÖREV 01 / DOSYA #02
+        </div>
+
+        <h2>HAFIZA KAYITLARI</h2>
+
+        <div class="ayrac"></div>
+
+        <p class="hafiza-aciklama">
+            Sistem geçmiş kayıtlarını inceliyor.
+            <br>
+            Beş kayıt doğrulanmalıdır.
+        </p>
+
+        <div class="ilerleme">
+            KAYIT <span id="kayitNumarasi">01</span> / 05
+        </div>
+
+        <button id="hafizaBaslatButonu">
+            KAYDI AÇ
+        </button>
+
+    </section>
+
+
+    <!-- ==================================================
+         HAFIZA KAYDI #001
+    ================================================== -->
+
+    <section class="soru-karti gizli" id="soruEkrani">
+
+        <div class="dosya-numarasi">
+            HAFIZA KAYDI #001
+        </div>
+
+        <h2>GEÇMİŞ KAYITLARI</h2>
+
+        <div class="ayrac"></div>
+
+        <p class="sistem-aciklamasi">
+            GEÇMİŞ KAYITLARI TARANIYOR...
+        </p>
+
+        <p class="soru-hikaye">
+            İlk bağlantıya ait birden fazla kayıt bulundu.
+            Ancak kayıtların tarihleri birbiriyle uyuşmuyor.
+        </p>
+
+        <p class="tutarsizlik">
+            ⚠ TUTARSIZLIK TESPİT EDİLDİ
+        </p>
+
+        <p class="soru-hikaye">
+            Bir kayıtta 3. sınıfta gerçekleşen bir karşılaşmadan
+            söz edilirken, ilk gerçek iletişim kaydı daha sonraki
+            bir tarihe işaret ediyor.
+        </p>
+
+        <p class="soru-hikaye">
+            Sistem, <strong>“ilk iletişim”</strong> olarak kabul edilmesi
+            gereken kaydı belirlemeye çalışıyor.
+        </p>
+
+        <p class="soru-metni">
+            Aşağıdaki kayıtlardan hangisi ilk gerçek iletişim
+            olarak doğrulanabilir?
+        </p>
+
+        <div class="cevaplar">
+
+            <button class="cevap-butonu" data-cevap="A">
+                A) İlkokul 3. sınıfta, oyun sırasında karşılaşma
+            </button>
+
+            <button class="cevap-butonu" data-cevap="B">
+                B) İlkokul 4. sınıfın yazında Messenger üzerinden başlayan konuşmalar
+            </button>
+
+            <button class="cevap-butonu" data-cevap="C">
+                C) Lise yıllarında yeniden başlayan iletişim
+            </button>
+
+            <button class="cevap-butonu" data-cevap="D">
+                D) Üniversite 2. sınıfta yeniden kurulan iletişim
+            </button>
+
+        </div>
+
+        <div class="cevap-sonucu gizli" id="cevapSonucu">
+
+            <div class="sonuc-baslik" id="sonucBaslik">
+                ⚠ KAYIT DOĞRULANAMADI
+            </div>
+
+            <p id="sonucMesaji">
+                Sistem seçilen kaydı mevcut verilerle eşleştiremedi.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         HAFIZA KAYDI #002
+    ================================================== -->
+
+    <section class="gizli-kayit gizli" id="gizliKayitEkrani">
+
+        <div class="dosya-numarasi">
+            HAFIZA KAYDI #002
+        </div>
+
+        <h2>BEKLENMEYEN KAYIT</h2>
+
+        <div class="ayrac"></div>
+
+        <p class="soru-hikaye">
+            Sistem, ilk iletişim kaydından
+            <strong>önceye ait</strong> başka bir veri buldu.
+        </p>
+
+        <p class="tutarsizlik">
+            ⚠ BEKLENMEYEN KAYIT TESPİT EDİLDİ
+        </p>
+
+        <p class="soru-hikaye">
+            Kayıt, ilkokul dönemine ait bir teneffüs sırasında
+            oluşturulmuş görünüyor.
+        </p>
+
+        <p class="soru-hikaye">
+            Gönderici doğrudan kayıt altına alınmamış.
+            Ancak veriler, mesajın bir sınıf arkadaşı aracılığıyla
+            iletildiğini gösteriyor.
+        </p>
+
+        <p class="soru-hikaye">
+            Kayıt içeriğinin yalnızca bir bölümü çözümlenebildi.
+        </p>
+
+        <p class="gizli-mesaj gizli" id="notIcerigi">
+            “SENİ SEVİYORUM...”
+        </p>
+
+        <p class="brifing-uyari" id="notUyarisi">
+            ⚠ KAYIT DAHA SONRA İNCELENMEK ÜZERE İŞARETLENDİ.
+        </p>
+
+        <button id="kaydiInceleButonu">
+            KAYDI İNCELE
+        </button>
+
+        <button id="sonrakiKayitButonu" class="gizli">
+            SONRAKİ KAYDA GEÇ
+        </button>
+
+    </section>
+
+
+    <!-- ==================================================
+         HAFIZA KAYDI #003
+    ================================================== -->
+
+    <section class="soru-karti gizli" id="liseKaydiEkrani">
+
+        <div class="dosya-numarasi">
+            HAFIZA KAYDI #003
+        </div>
+
+        <h2>İLETİŞİM KESİNTİSİ</h2>
+
+        <div class="ayrac"></div>
+
+        <p class="sistem-aciklamasi">
+            ESKİ İLETİŞİM KAYITLARI TARANIYOR...
+        </p>
+
+        <p class="soru-hikaye">
+            İlk kayıtların ardından sistem uzun bir sessizlik
+            dönemi tespit etti.
+        </p>
+
+        <p class="soru-hikaye">
+            Ancak lise yıllarına ait başka bir iletişim kaydı
+            bulundu.
+        </p>
+
+        <p class="tutarsizlik">
+            ⚠ YENİ BİR İLETİŞİM KANALI TESPİT EDİLDİ
+        </p>
+
+        <p class="soru-hikaye">
+            Kayıtlara göre bu iletişimi
+            <strong>sen başlattın.</strong>
+        </p>
+
+        <p class="soru-hikaye">
+            Karşı taraftan cevap alındı ve bir süre boyunca
+            iletişim devam etti.
+        </p>
+
+        <p class="soru-hikaye">
+            Ancak kayıtların ilerleyen bölümünde iletişimin
+            sona erdiği görülüyor.
+        </p>
+
+        <p class="soru-hikaye">
+            Sistem, iletişimin neden kesildiğini belirlemek
+            için son kaydı incelemeye aldı.
+        </p>
+
+        <p class="tutarsizlik">
+            ⚠ SON KAYITTA BEKLENMEYEN BİR KARAR TESPİT EDİLDİ
+        </p>
+
+        <p class="soru-metni">
+            İletişimin kesilmesine neden olan karar
+            aşağıdakilerden hangisiydi?
+        </p>
+
+        <div class="cevaplar">
+
+            <button class="cevap-butonu" data-lise-cevap="A">
+                A) Konuşmalar karşılıklı olarak sona erdi.
+            </button>
+
+            <button class="cevap-butonu" data-lise-cevap="B">
+                B) Bir yanlış anlaşılma nedeniyle iletişim kesildi.
+            </button>
+
+            <button class="cevap-butonu" data-lise-cevap="C">
+                C) “Hayatımda kimseyi istemiyorum.” kararı alındı.
+            </button>
+
+            <button class="cevap-butonu" data-lise-cevap="D">
+                D) Sistem iletişim kanalını kapattı.
+            </button>
+
+        </div>
+
+        <div class="cevap-sonucu gizli" id="liseCevapSonucu">
+
+            <div class="sonuc-baslik" id="liseSonucBaslik">
+                ⚠ KAYIT DOĞRULANAMADI
+            </div>
+
+            <p id="liseSonucMesaji">
+                Sistem seçilen kaydı mevcut verilerle eşleştiremedi.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         HAFIZA KAYDI #004
+    ================================================== -->
+
+    <section class="universite-kaydi gizli" id="universiteKaydiEkrani">
+
+        <div class="dosya-numarasi">
+            HAFIZA KAYDI #004
+        </div>
+
+        <h2>YENİDEN BAŞLAYAN İLETİŞİM</h2>
+
+        <div class="ayrac"></div>
+
+        <p class="sistem-aciklamasi">
+            SİSTEM YENİ BİR İLETİŞİM KAYDI TESPİT ETTİ...
+        </p>
+
+        <p class="soru-hikaye">
+            Önceki iletişim kaydının üzerinden uzun bir süre
+            geçtikten sonra sistem yeniden bir mesaj trafiği
+            tespit etti.
+        </p>
+
+        <p class="tutarsizlik">
+            ⚠ ESKİ KAYIT İLE YENİ KAYIT ARASINDA BAĞLANTI BULUNDU
+        </p>
+
+        <p class="soru-hikaye">
+            Mesaj gece saatlerinde gönderilmiş.
+            Ancak kayıt, cevabın hemen gelmediğini gösteriyor.
+        </p>
+
+        <p class="soru-hikaye">
+            Sistem şu anda yeniden başlayan iletişimin
+            ilk adımını doğrulamaya çalışıyor.
+        </p>
+
+        <p class="soru-metni">
+            Bu yeni iletişimde ilk mesajı kim gönderdi?
+        </p>
+
+        <div class="cevaplar">
+
+            <button class="cevap-butonu" data-universite-cevap="A">
+                A) Sen mesaj attın
+            </button>
+
+            <button class="cevap-butonu" data-universite-cevap="B">
+                B) O tekrar mesaj attı
+            </button>
+
+            <button class="cevap-butonu" data-universite-cevap="C">
+                C) Ortak bir arkadaşınız mesaj attı
+            </button>
+
+            <button class="cevap-butonu" data-universite-cevap="D">
+                D) Tesadüfen karşılaştınız
+            </button>
+
+        </div>
+
+        <div class="cevap-sonucu gizli" id="universiteCevapSonucu">
+
+            <div class="sonuc-baslik" id="universiteSonucBaslik">
+                ⚠ KAYIT DOĞRULANAMADI
+            </div>
+
+            <p id="universiteSonucMesaji">
+                Sistem seçilen kaydı mevcut verilerle eşleştiremedi.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         HAFIZA KAYDI #005
+    ================================================== -->
+
+    <section class="soru-karti gizli" id="ilkBulusmaKaydi">
+
+        <div class="dosya-numarasi">
+            HAFIZA KAYDI #005
+        </div>
+
+        <h2>İLK BULUŞMA</h2>
+
+        <div class="ayrac"></div>
+
+        <p class="sistem-aciklamasi">
+            YENİ BİR HAFIZA KAYDI TESPİT EDİLDİ...
+        </p>
+
+        <p class="soru-hikaye">
+            Sistem, yeniden başlayan iletişimin ardından
+            gerçekleşen ilk yüz yüze buluşmaya ait bir kayıt buldu.
+        </p>
+
+        <p class="tutarsizlik">
+            ⚠ ARAÇ İÇERİSİNDE OLAĞANDIŞI DURUM TESPİT EDİLDİ
+        </p>
+
+        <p class="soru-hikaye">
+            Kayıtlara göre sürücü, buluşma sırasında
+            normalden belirgin şekilde daha heyecanlıydı.
+        </p>
+
+        <p class="soru-hikaye">
+            Özellikle debriyaja basıldığı sırada sürücünün
+            ayağında belirgin bir titreme tespit edildi.
+        </p>
+
+        <p class="soru-hikaye">
+            Sistem kayıtlarında sürücünün aracı istop ettirmekten
+            çekindiği ve bu nedenle olağandışı bir stres yaşadığı görülüyor.
+        </p>
+
+        <p class="soru-hikaye">
+            Ancak tüm bu heyecanın ortasında sistem,
+            buluşmanın başlangıç noktasına ait bir konum kaydını
+            korumayı başardı.
+        </p>
+
+        <p class="soru-metni">
+            İlk buluşmada onu almak için hangi noktaya gittin?
+        </p>
+
+        <div class="cevaplar">
+
+            <button class="cevap-butonu" data-ilk-bulusma-cevap="A">
+                A) Evlerinin önüne
+            </button>
+
+            <button class="cevap-butonu" data-ilk-bulusma-cevap="B">
+                B) Tanıştığınız ortaokulun bahçesine
+            </button>
+
+            <button class="cevap-butonu" data-ilk-bulusma-cevap="C">
+                C) Mis Fırın'ın önüne
+            </button>
+
+            <button class="cevap-butonu" data-ilk-bulusma-cevap="D">
+                D) Üniversitenin önüne
+            </button>
+
+        </div>
+
+        <div class="cevap-sonucu gizli" id="ilkBulusmaCevapSonucu">
+
+            <div class="sonuc-baslik" id="ilkBulusmaSonucBaslik">
+                ⚠ KAYIT DOĞRULANAMADI
+            </div>
+
+            <p id="ilkBulusmaSonucMesaji">
+                Sistem seçilen kaydı mevcut verilerle eşleştiremedi.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         BÖLÜM 02 — ŞİFRELEME PROTOKOLÜ
+    ================================================== -->
+
+    <section class="terminal-karti gizli" id="terminalBaslangicEkrani">
+
+        <div class="terminal-ust">
+
+            <div class="terminal-baslik">
+                GİZLİ DOSYA // ŞİFRELEME PROTOKOLÜ
+            </div>
+
+            <div class="terminal-durum">
+                TERMINAL v2.0
+            </div>
+
+        </div>
+
+        <div class="terminal-ekran">
+
+            <p>&gt; güvenli bağlantı kuruluyor...</p>
+            <p>&gt; bağlantı noktası bulundu.</p>
+            <p>&gt; korumalı veri katmanı tespit edildi.</p>
+            <p>&gt; şifreleme protokolü başlatılıyor...</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>
+                &gt; HAFIZA KAYITLARI:
+                <span class="terminal-ok">TAMAM ✓</span>
+            </p>
+
+            <p>
+                &gt; KORUMA KATMANI:
+                <span class="terminal-uyari">AKTİF</span>
+            </p>
+
+            <p>&gt; GİZLİ VERİ: TESPİT EDİLDİ</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p class="terminal-vurgu">
+                &gt; Bazı kayıtlar yalnızca doğru kişi
+                tarafından açılabilir.
+            </p>
+
+            <p class="terminal-vurgu">
+                &gt; Bu dosyanın güvenliği geçmiş
+                anılara değil, özel kayıtlara bağlı.
+            </p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; KORUMA ANAHTARI ANALİZ EDİLİYOR...</p>
+            <p>&gt; 2 GİZLİ KAYIT TESPİT EDİLDİ.</p>
+            <p>&gt; KAYITLARIN AÇILMASI BEKLENİYOR.</p>
+
+        </div>
+
+        <button id="terminalBaslatButonu">
+            ANALİZİ BAŞLAT
+        </button>
+
+    </section>
+
+
+    <!-- ==================================================
+         BÖLÜM 02 — KAYIT #01
+    ================================================== -->
+
+    <section class="terminal-karti gizli" id="terminalKayit1Ekrani">
+
+        <div class="terminal-ust">
+
+            <div class="terminal-baslik">
+                GİZLİ DOSYA // KAYIT #01
+            </div>
+
+            <div class="terminal-durum">
+                KORUMALI VERİ
+            </div>
+
+        </div>
+
+        <div class="terminal-ekran">
+
+            <p>&gt; KAYIT #01 AÇILIYOR...</p>
+
+            <p>&gt; VERİ TÜRÜ: ÖZEL HİTAP</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p class="terminal-vurgu">
+                &gt; Bir şeyi bilemediğinde ortaya çıkan,
+                zamanla aranızda şakaya dönüşen
+                ve bir hayvan içeren hitap.
+                Sistem bu hitap kullanıldığında oyuncunun sinir seviyesinde bir artış tespit ediyor.
+            </p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; BEKLENEN VERİ:</p>
+
+        </div>
+
+        <div class="terminal-input-alani">
+
+            <input
+                type="text"
+                id="terminalHitap1"
+                autocomplete="off"
+                placeholder="Hitabı yaz..."
+            >
+
+            <button id="terminalHitap1Butonu">
+                VERİYİ GÖNDER
+            </button>
+
+        </div>
+
+        <div
+            class="terminal-sonuc gizli"
+            id="terminalHitap1Sonucu"
+        ></div>
+
+    </section>
+
+
+    <!-- ==================================================
+         BÖLÜM 02 — KAYIT #02
+    ================================================== -->
+
+    <section class="terminal-karti gizli" id="terminalKayit2Ekrani">
+
+        <div class="terminal-ust">
+
+            <div class="terminal-baslik">
+                GİZLİ DOSYA // KAYIT #02
+            </div>
+
+            <div class="terminal-durum">
+                KORUMALI VERİ
+            </div>
+
+        </div>
+
+        <div class="terminal-ekran">
+
+            <p>&gt; KAYIT #02 AÇILIYOR...</p>
+
+            <p>&gt; VERİ TÜRÜ: ÖZEL HİTAP</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p class="terminal-vurgu">
+                &gt; Kendi fikrinden kolay kolay
+                vazgeçmemesi nedeniyle sevgiline taktığın
+                ve bir hayvan içeren hitap.
+            </p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; BEKLENEN VERİ:</p>
+
+        </div>
+
+        <div class="terminal-input-alani">
+
+            <input
+                type="text"
+                id="terminalHitap2"
+                autocomplete="off"
+                placeholder="Hitabı yaz..."
+            >
+
+            <button id="terminalHitap2Butonu">
+                VERİYİ GÖNDER
+            </button>
+
+        </div>
+
+        <div
+            class="terminal-sonuc gizli"
+            id="terminalHitap2Sonucu"
+        ></div>
+
+    </section>
+
+
+    <!-- ==================================================
+         BÖLÜM 02 — ŞİFRELEME
+    ================================================== -->
+
+    <section class="terminal-karti gizli" id="terminalSifreEkrani">
+
+        <div class="terminal-ust">
+
+            <div class="terminal-baslik">
+                GİZLİ DOSYA // ŞİFRELEME KATMANI
+            </div>
+
+            <div class="terminal-durum">
+                ANALİZ
+            </div>
+
+        </div>
+
+        <div class="terminal-ekran">
+
+            <p>&gt; İKİ KAYIT DOĞRULANDI ✓</p>
+
+            <p>&gt; VERİLER ARASINDA BAĞLANTI KURULUYOR...</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; APTAL BALIK → BALIK</p>
+            <p>&gt; İNATÇI KEÇİ → KEÇİ</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p class="terminal-vurgu">
+                &gt; HAYVAN VERİLERİ AYRIŞTIRILDI.
+            </p>
+
+            <p>
+                &gt; İki kayıt tek bir anahtar oluşturuyor.
+            </p>
+
+            <p>
+                &gt; Anahtar, hayvanların ilk harflerinden
+                meydana geliyor.
+            </p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; BALIK → B</p>
+            <p>&gt; KEÇİ → K</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p class="terminal-vurgu">
+                &gt; HAM ANAHTAR:
+                <span class="terminal-ok">B K</span>
+            </p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; ŞİFRELEME YÖNTEMİ ARANIYOR...</p>
+            <p>&gt; ANAHTARDAKİ HARFLERİN KONUMU İNCELENİYOR.</p>
+            <p>&gt; ALFABE REFERANSI OLUŞTURULDU.</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <div class="terminal-alfabe">
+
+                <p>
+                    &gt; A B C D E F G H I J K L M
+                </p>
+
+                <p>
+                    &gt; ↑
+                </p>
+
+                <p>
+                    &gt; C
+                </p>
+
+                <p class="terminal-bosluk">&nbsp;</p>
+
+                <p>
+                    &gt; A B C D E F G H I J K L M
+                </p>
+
+                <p>
+                    &gt; &nbsp; &nbsp; ↑
+                </p>
+
+                <p>
+                    &gt; &nbsp; &nbsp; E
+                </p>
+
+                <p class="terminal-bosluk">&nbsp;</p>
+
+                <p class="terminal-vurgu">
+                    &gt; İPUCU:
+                    BAZEN HARFLER OLDUĞU GİBİ GÖZÜKMEZ
+                    PİNİ BULMAK İÇİN BİRAZ İLERLEMEK GEREKİR
+                </p>
+
+            </div>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p class="terminal-vurgu">
+                &gt; OLUŞAN PIN'İ GİR:
+            </p>
+
+        </div>
+
+        <div class="terminal-input-alani">
+
+            <input
+                type="text"
+                id="terminalPinInput"
+                autocomplete="off"
+                maxlength="2"
+                placeholder="PIN"
+            >
+
+            <button id="terminalPinButonu">
+                PIN'İ DOĞRULA
+            </button>
+
+        </div>
+
+        <div
+            class="terminal-sonuc gizli"
+            id="terminalPinSonucu"
+        ></div>
+
+    </section>
+
+
+    <!-- ==================================================
+         BÖLÜM 02 — GİZLİ MESAJ
+    ================================================== -->
+
+    <section class="terminal-karti gizli" id="terminalMesajEkrani">
+
+        <div class="terminal-ust">
+
+            <div class="terminal-baslik">
+                GİZLİ DOSYA // SON VERİ
+            </div>
+
+            <div class="terminal-durum">
+                ERİŞİM SAĞLANDI
+            </div>
+
+        </div>
+
+        <div class="terminal-ekran mesaj-terminali">
+
+            <p>&gt; PIN DOĞRULANDI ✓</p>
+            <p>&gt; GÜVENLİK KATMANI AŞILDI.</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; BEKLENMEYEN VERİ TESPİT EDİLDİ.</p>
+            <p>&gt; BU VERİ ŞİFRENİN BİR PARÇASI DEĞİL.</p>
+            <p>&gt; BU BİR MESAJ.</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; VERİ KAYNAĞI: MESAJ KANALI</p>
+            <p>&gt; ZAMAN DAMGASI: 20 EYLÜL 2024</p>
+            <p>&gt; DURUM: YENİDEN AÇILIYOR...</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; MESAJ ÇÖZÜMLENİYOR...</p>
+
+            <p>&gt; %12</p>
+            <p>&gt; %37</p>
+            <p>&gt; %64</p>
+            <p>&gt; %89</p>
+            <p>&gt; %100</p>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <div class="terminal-mesaj">
+
+                <p>
+                    Bazı şeylerin neden saklandığını
+                    anlamak için onları kaybetmek gerekmez.
+                </p>
+
+                <p>
+                    Bazen sadece dönüp bakmak yeterlidir.
+                </p>
+
+                <p>
+                    Çünkü bazı anılar, üzerinden ne kadar
+                    zaman geçerse geçsin aynı yerde kalır.
+                </p>
+
+                <p>
+                    Bazı konuşmalar yarım kalır.
+                </p>
+
+                <p>
+                    Bazı insanlar uzaklaşır.
+                </p>
+
+                <p>
+                    Ve bazen yıllar sonra, hiç beklemediğin
+                    bir anda yeniden bir mesaj gelir.
+                </p>
+
+                <p>
+                    Belki de bazı hikâyelerin gerçekten
+                    bitmediğini anlamanın yolu budur.
+                </p>
+
+                <p>
+                    <strong>
+                        Çünkü bazı insanlar hayatımıza bir kez
+                        girip öylece çıkmaz.
+                    </strong>
+                </p>
+
+            </div>
+
+            <p class="terminal-bosluk">&nbsp;</p>
+
+            <p>&gt; MESAJIN DEVAMI BULUNAMADI.</p>
+            <p>&gt; VERİ KAYNAĞI: DOSYA #03</p>
+
+        </div>
+
+        <button id="bolum3GecisButonu">
+            DOSYA #03'E ERİŞ
+        </button>
+
+    </section>
+
+</main>
+
+
+<!-- ==========================================================
+     BÖLÜM 03 — HAFIZA ARŞİVİ
+========================================================== -->
+
+<section
+    class="album-bolumu gizli"
+    id="albumBolumu"
+>
+
+    <!-- ======================================================
+         ALBÜM KAPAĞI
+    ======================================================= -->
+
+    <div
+        class="album-kapak-ekrani"
+        id="albumKapakEkrani"
+    >
+
+        <div class="eski-album-kapak">
+
+            <div class="kapak-kose-sol">
+                ARŞİV
+            </div>
+
+            <div class="kapak-kose-sag">
+                #03
+            </div>
+
+            <div class="kapak-etiket">
+
+                <div class="kapak-etiket-ust">
+                    KİŞİSEL ARŞİV
+                </div>
+
+                <div class="kapak-baslik">
+                    BİZ
+                </div>
+
+                <div class="kapak-alt-baslik">
+                    FOTOĞRAF KAYITLARI
+                </div>
+
+                <div class="kapak-tarih">
+                    2024 — 2026
+                </div>
+
+            </div>
+
+            <div class="kapak-alt-not">
+                Bazı şeyler saklanmaz.<br>
+                Biriktirilir.
+            </div>
+
+            <button
+                type="button"
+                id="albumAcButonu"
+                class="album-ac-butonu"
+            >
+                ALBÜMÜ AÇ
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         ALBÜM SAHNESİ
+    ======================================================= -->
+
+    <div
+        class="album-sahnesi gizli"
+        id="albumSahnesi"
+    >
+
+        <div class="album-ust-bilgi">
+
+            <div>
+                ARŞİV // KİŞİSEL KAYIT
+            </div>
+
+            <div id="albumSayfaBilgisi">
+                KAYIT 01 — 02 / 30
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             ALBÜM KİTABI
+        =================================================== -->
+
+        <div
+            class="album-kitap"
+            id="albumKitap"
+        >
+
+            <!-- SOL SAYFA -->
+
+            <div
+                class="album-sayfa album-sol-sayfa"
+                id="albumSolSayfa"
+            >
+
+                <div
+                    class="sayfa-numara"
+                    id="solSayfaNumara"
+                >
+                    01
+                </div>
+
+                <div class="sayfa-kagit-kose">
+                    ARCHIVE
+                </div>
+
+                <div class="album-foto-alani">
+
+                    <div class="polaroid">
+
+                        <div class="polaroid-foto">
+
+                            <img
+                                id="solFoto"
+                                src=""
+                                alt=""
+                            >
+
+                            <div
+                                class="foto-hata"
+                                id="solFotoHata"
+                            >
+                                GÖRSEL KAYDI OKUNAMADI
+                            </div>
+
+                            <div
+                                class="arsiv-isareti gizli"
+                                id="solIsaret"
+                            >
+                                ✦
+                            </div>
+
+                            <div
+                                class="bos-kayit"
+                                id="solBosKayit"
+                            >
+                                GÖRSEL VERİ<br>
+                                BULUNAMADI
+                            </div>
+
+                        </div>
+
+                        <div class="polaroid-alt">
+                            <span id="solFotoNot"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="album-not-alani">
+
+                    <div
+                        class="tarih-damgasi"
+                        id="solTarih"
+                    >
+                        ARŞİV KAYDI
+                    </div>
+
+                    <p id="solArsivNot"></p>
+
+                </div>
+
+            </div>
+
+
+            <!-- SAĞ SAYFA -->
+
+            <div
+                class="album-sayfa album-sag-sayfa"
+                id="albumSagSayfa"
+            >
+
+                <div
+                    class="sayfa-numara sag-numara"
+                    id="sagSayfaNumara"
+                >
+                    02
+                </div>
+
+                <div class="sayfa-kagit-kose">
+                    ARCHIVE
+                </div>
+
+                <div class="album-foto-alani">
+
+                    <div class="polaroid">
+
+                        <div class="polaroid-foto">
+
+                            <img
+                                id="sagFoto"
+                                src=""
+                                alt=""
+                            >
+
+                            <div
+                                class="foto-hata"
+                                id="sagFotoHata"
+                            >
+                                GÖRSEL KAYDI OKUNAMADI
+                            </div>
+
+                            <div
+                                class="arsiv-isareti gizli"
+                                id="sagIsaret"
+                            >
+                                ✦
+                            </div>
+
+                            <div
+                                class="bos-kayit"
+                                id="sagBosKayit"
+                            >
+                                GÖRSEL VERİ<br>
+                                BULUNAMADI
+                            </div>
+
+                        </div>
+
+                        <div class="polaroid-alt">
+                            <span id="sagFotoNot"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="album-not-alani">
+
+                    <div
+                        class="tarih-damgasi"
+                        id="sagTarih"
+                    >
+                        ARŞİV KAYDI
+                    </div>
+
+                    <p id="sagArsivNot"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             ALBÜM KONTROLLERİ
+        =================================================== -->
+
+        <div class="album-kontroller">
+
+            <button
+                type="button"
+                id="albumGeriButonu"
+                class="album-kontrol"
+                disabled
+            >
+                ← ÖNCEKİ
+            </button>
+
+            <div class="album-merkez-not">
+                SAYFALARI İNCELE
+            </div>
+
+            <button
+                type="button"
+                id="albumIleriButonu"
+                class="album-kontrol"
+            >
+                SONRAKİ →
+            </button>
+
+        </div>
+
+
+        <div class="album-alt-not">
+
+            <span id="albumAltDurum">
+                ARŞİV TARANIYOR...
+            </span>
+
+        </div>
+
+    </div>
+    <!-- ↑ albumSahnesi BURADA KAPANIYOR -->
+
+
+    <!-- ======================================================
+         KİLİTLİ KASA
+         ALBÜM SAHNESİNİN DIŞINDA
+    ======================================================= -->
+
+    <div
+        class="album-kasa-ekrani gizli"
+        id="albumKasaEkrani"
+    >
+
+        <div class="kasa-sahnesi">
+
+            <div class="kasa-ust-kayit">
+                ARŞİV KAYDI #031
+            </div>
+
+            <div class="kasa-durum">
+                ERİŞİM KISITLI
+            </div>
+
+            <div class="kasa">
+
+                <div class="kasa-etiket">
+
+                    <span>ARŞİV</span>
+                    <strong>#03</strong>
+
+                </div>
+
+                <div class="kasa-kilit">
+
+                    <div class="kilit-sembol">
+                        ✦
+                    </div>
+
+                    <div class="kilit-baslik">
+                        SON KAYIT
+                    </div>
+
+                    <div class="kilit-aciklama">
+                        Albüm tamamlandı.<br>
+                        Son kayıt kilitli durumda.
+                    </div>
+
+                    <div class="sifre-paneli">
+
+                        <div class="sifre-baslik">
+                            TARİH ANAHTARI
+                        </div>
+
+                        <input
+                            type="text"
+                            id="kasaSifre"
+                            class="kasa-sifre"
+                            inputmode="numeric"
+                            maxlength="4"
+                            autocomplete="off"
+                            placeholder="____"
+                        >
+
+                        <button
+                            type="button"
+                            id="kasaAcButonu"
+                            class="kasa-ac-butonu"
+                        >
+                            KİLİDİ AÇ
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="kasa-uyari"
+                    id="kasaUyari"
+                >
+                    İŞARETLİ KAYDIN TARİHİNİ HATIRLA.<br>
+                    GÜN + AY
+                </div>
+
+            </div>
+
+            <div class="kasa-ipucu">
+                İPUCU: ALBÜME GERİ DÖNEBİLİRSİN.<br>
+                İŞARETLİ KAYDI BUL.
+            </div>
+
+            <button
+                type="button"
+                id="kasaAlbumGeriButonu"
+                class="kasa-album-geri"
+            >
+                ← ALBÜME GERİ DÖN
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         BÖLÜM 04 GEÇİŞ
+    ======================================================= -->
+
+    <div
+        class="album-bolum4-gecis gizli"
+        id="albumBolum4Gecis"
+    >
+
+        <div class="gelecek-kagit">
+
+            <div class="gelecek-kayit-no">
+                ARŞİV KAYDI #031
+            </div>
+
+            <div class="gelecek-durum">
+                DURUM: DOĞRULANDI
+            </div>
+
+            <div class="gelecek-cizgi"></div>
+
+            <div class="gelecek-baslik">
+                KAYIT DOĞRULANDI.
+            </div>
+
+            <div class="gelecek-mesaj">
+
+                <p>
+                    Dosyanın bu kısmı tamamlandı.
+                </p>
+
+                <p>
+                    Bundan sonrası başka bir kayda ait.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================================
+     BÖLÜM 04 — SON KAYIT / CRT
+========================================================== -->
+
+<section
+    id="bolum4"
+    class="bolum4 gizli"
+>
+
+    <div class="bolum4-sahne">
+
+        <div
+            id="crtTelevizyon"
+            class="crt-televizyon"
+        >
+
+            <div class="crt-ekran">
+
+                <!-- CRT CIZIRTI -->
+
+                <div
+                    id="crtCizirti"
+                    class="crt-cizirti"
+                ></div>
+
+
+                <!-- CRT SCANLINES -->
+
+                <div class="crt-scanlines"></div>
+
+
+                <!-- YÜKLEME EKRANI -->
+
+                <div
+                    id="kayitYukleme"
+                    class="kayit-yukleme"
+                >
+
+                    <div
+                        id="kayitDurumu"
+                        class="kayit-durumu"
+                    >
+                        &gt; BAĞLANTI KURULUYOR...
+                    </div>
+
+                    <div
+                        id="kayitAltDurumu"
+                        class="kayit-alt-durumu"
+                    >
+                        SİNYAL BEKLENİYOR
+                    </div>
+
+                    <div
+                        id="kayitProgress"
+                        class="kayit-progress"
+                    >
+                        [░░░░░░░░░░░░░░░░░░░░] 0%
+                    </div>
+
+                </div>
+
+
+                <!-- ==================================================
+                     FİNAL VİDEO
+                =================================================== -->
+
+                <video
+                    id="finalVideo"
+                    class="final-video"
+                    preload="none"
+                    playsinline
+                >
+
+                    <source
+                        src="assets/video/final.mp4"
+                        type="video/mp4"
+                    >
+
+                    Tarayıcınız video oynatmayı desteklemiyor.
+
+                </video>
+
+
+                <!-- REC -->
+
+                <div
+                    id="crtRec"
+                    class="crt-rec gizli"
+                >
+                    ● REC
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================================
+     SİSTEM SÜRÜMÜ
+========================================================== -->
+
+<div class="sistem-surumu">
+    SİSTEM v1.0.0
+</div>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
